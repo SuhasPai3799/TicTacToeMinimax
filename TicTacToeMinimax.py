@@ -125,7 +125,7 @@ def beg():
             playerMove()
             printBoard()
         else:
-            print("O has won, sorry !")
+            print("The computer has won, sorry !")
             break
         print("\n")
         if(not(isWinner(board,'X'))):
@@ -139,7 +139,7 @@ def beg():
                 insertLetter('O',pos)
                 printBoard()
         else:
-            print("X has won, congrats !")
+            print("You have won, congrats !")
             break
         print("\n")
 
